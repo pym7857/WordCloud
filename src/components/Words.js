@@ -145,7 +145,7 @@ class Words extends React.Component {
                     </DialogContent>
                     <DialogActions>
                         <Button variant="contained" color="primary" onClick={this.handleSubmit}>추가</Button>
-                        <Button variant="outlined" color="primary" onClick={this.handleSubmit}>닫기</Button>
+                        <Button variant="outlined" color="primary" onClick={this.handleDialogToggle}>닫기</Button>
                     </DialogActions>
                 </Dialog>
             </div>
