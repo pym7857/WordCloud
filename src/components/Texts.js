@@ -135,7 +135,10 @@ class Texts extends React.Component {
         const { classes } = this.props;
         return (
             <div>
-                {Object.keys(this.state.texts).map(id => {
+                {Object.keys(this.state.texts).map(id => {  
+                    // 예를들어 .. texts: [ {"1": "사랑"}, {"2": "이름"}, {"3", "용기"} ]
+                    // Object.keys(texts) => { 1, 2, 3 }
+                    // map(id) => 위의 key값 들을 id라는 이름으로 매핑시켜줌       
                     const text = this.state.texts[id];
                     return (
                         <Card key={id}>
@@ -150,7 +153,7 @@ class Texts extends React.Component {
                                         </Typography>
                                     </Grid>
                                     <Grid item xs={3}>
-                                            <Link component={RouterLink} to={"detail/" + id}>
+                                            <Link component={RouterLink} to={ "detail/" + id }>
                                                 <Button variant="contained" color="primary">보기</Button>
                                             </Link>
                                     </Grid>
@@ -161,7 +164,7 @@ class Texts extends React.Component {
                             </CardContent>
                         </Card>
                     )
-                })};
+                })}
 
                 <Fab color="primary" className={classes.fab} onClick={this.handleDialogToggle}>
                     <AddIcon />
