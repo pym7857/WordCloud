@@ -1,5 +1,6 @@
 # WordCloud
-React + Firebase 를 이용한 워드 클라우드 웹앱 <
+React + Firebase 를 이용한 워드 클라우드 웹앱
+<br>
 사용자가 text파일 입력시, word의 가중치를 적용하여 워드 클라우드 이미지 생성해주는 프로그램 
 
 ## Firebase Hosting 
