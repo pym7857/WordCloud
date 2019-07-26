@@ -6,6 +6,9 @@ React + Firebase 를 이용한 워드 클라우드 웹앱
 ## Firebase Hosting 
 https://word-cloud-81410.firebaseapp.com (http://localhost:8080)
 
+## Database
+Firebase 의 RealTimeDatabase 이용 
+
 ## 서버 작동법
 VisualStudio Code 터미널: yarn start 명령
 파이참 터미널: word_cloud.py 실행(Run)
