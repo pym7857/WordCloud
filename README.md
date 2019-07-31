@@ -12,7 +12,7 @@ Firebase 의 RealTimeDatabase 이용
 ## 서버 작동법
 ```
 # VisualStudio Code $> yarn start
-<br>
+
 # PyCharm $> word_cloud.py 실행(Run)
 ```
 ## 패치노트
