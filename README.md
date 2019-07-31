@@ -10,10 +10,11 @@ https://word-cloud-81410.firebaseapp.com (http://localhost:8080)
 Firebase 의 RealTimeDatabase 이용 
 
 ## 서버 작동법
-VisualStudio Code 터미널: **yarn start** 명령
+```
+# VisualStudio Code **yarn start** 명령
 <br>
-파이참 터미널: word_cloud.py 실행(Run)
-
+# 파이참 터미널: word_cloud.py 실행(Run)
+```
 ## 패치노트
 - Home.js
 - Texts.js
