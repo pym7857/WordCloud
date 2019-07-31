@@ -7,7 +7,7 @@ React + Firebase 를 이용한 워드 클라우드 웹앱
 https://word-cloud-81410.firebaseapp.com (http://localhost:8080)
 
 ## Database
-Firebase 의 RealTimeDatabase 이용 
+Firebase의 RealTimeDatabase 이용 
 
 ## 서버 작동법
 ```
